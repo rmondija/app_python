@@ -1,10 +1,11 @@
+from webbrowser import Chrome
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from time import sleep
 
 url = "https://www.lemonde.fr/"
-driver = webdriver.Chrome() # chemin du webdriver edge
+driver = webdriver.Chrome() # chemin du webdriver chrome
 driver.get(url)
 sleep(2)
 driver.find_element(By.CLASS_NAME,"gdpr-lmd-button.gdpr-lmd-button--big.gdpr-lmd-button--slate-darker").click()
