@@ -16,7 +16,7 @@ with st.form("My form"):
     age = st.slider("Quel est votre age", 18, 100, 35)
 
     if st.form_submit_button('Envoyer'):
-        st.write("Bonjour " + user_name + 'tu as ' + str(age))
+        st.write("Bonjour " + user_name + ' tu as ' + str(age))
 
 if st.sidebar.checkbox("Montrer l'image"):
     st.sidebar.image("mountain.jpg")
