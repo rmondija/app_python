@@ -3,7 +3,7 @@ import streamlit as st
 st.markdown('## Montagne')
 st.markdown('### Site sur les montagnes')
 
-st.sidebar.image("mountain.jpg", use_container_width=True)
+st.sidebar.image("mountain.jpg")
 
 col1, col2 = st.columns(2)
 
